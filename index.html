@@ -13,7 +13,7 @@
 <body>
 <!--header-->
 <header class="header">
-     <a href="#" class="logo">Portfolio</a>
+     <div class="link-container">
      <i class='bx bx-menu' id="menu-icon"></i>
      <nav class="navbar">
         <a href="#home" class="a">HOME</a>
@@ -22,6 +22,7 @@
         <a href="#portfolio">PORTFOLIO</a>
         <a href="#contact">CONTACT</a>
      </nav>
+    </div>
 </header>
 <!--header ends-->
 <!--home section-->
@@ -137,7 +138,7 @@
  
          </div>
 
-         <div class="portfolio-box">
+         <!--<div class="portfolio-box">
           
             <img src="images/Screenshot (48).png" alt="img"> 
             <div class="portfolio-layer">
@@ -148,7 +149,7 @@
  
          </div>
 
-         <div class="portfolio-box">
+         <!--<div class="portfolio-box">
           
             <img src="images/Screenshot (52)1.png" alt="img"> 
             <div class="portfolio-layer">
@@ -159,7 +160,7 @@
  
          </div>
 
-         <div class="portfolio-box">
+         <!--<div class="portfolio-box">
           
             <img src="images/Screenshot (50).png" alt="img"> 
             <div class="portfolio-layer">
@@ -170,7 +171,7 @@
  
          </div>
 
-    </div>
+    </div>-->
 
 </section>
 <!-- portfolio section ends -->
@@ -180,13 +181,13 @@
 <h2 class="heading">Contact <span>Me!</span></h2>
 <form id="submit-form" action="">
     <div class="input-box">
-         <input type="text"  placeholder=" Name" >
-         <input type="number"  placeholder=" phone number" >
+         <input type="text"  placeholder="First Name" >
+         <input type="text"  placeholder="Last Name" >
          
     </div>
     <div class="input-box">
-        <input type="email" placeholder="E-mail">
-        <input type="text" placeholder="E-mail-subject">
+        <input type="email" placeholder="Email">
+        <input type="text" pattern="[0-9]{10}" placeholder="Phone Number">
        
    </div>
    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>

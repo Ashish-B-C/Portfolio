@@ -34,10 +34,10 @@ section{
     padding: 2rem 9%;
     width: 100%;
     background: var(--bg-color);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 100;
+     z-index: 100;
+}
+.link-container{
+    float: right;
 }
 .header .sticky{
     border-bottom: .1rem solid rgba(0,0,0,.2);
@@ -53,6 +53,7 @@ section{
     font-size: 1.7rem;
     margin-left: 4rem;
     transition: .5s;
+    
 
 }
 .navbar a:hover,
